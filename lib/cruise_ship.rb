@@ -7,7 +7,7 @@
 # }
 
 def select_winner(passengers)
-  winner = nil
+  winner = ""
   passengers.each do |key, val|
     if key.include?("a") && val.start_with?("A")
       winner = val
